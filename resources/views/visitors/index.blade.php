@@ -6,10 +6,54 @@
         <section class="slider-section">
             <div class="slider-wrapper">
                 <div id="main-slider" class="nivoSlider">
-                    <img src="img/slider-1.jpg" alt="" title="#slider-caption-1"/>
+                    <img src="{{ config('app.url') }}\img\main2 (1).jpeg" alt="" title="#slider-caption-1"/>
                     <img src="img/slider-2.jpg" alt="" title="#slider-caption-2"/>
                     <img src="img/slider-3.jpg" alt="" title="#slider-caption-3"/>
                 </div><!-- /#main-slider -->
+
+
+
+<section id="counter" class="counter-section">
+    <div class="container">
+        <ul class="row counters">
+            <li class="col sm-padding">
+                <div class="counter-content">
+                    <i class="ti-money"></i>
+                    <h3 class="counter">5000</h3>
+                    <h4 class="text-white">Books found homes in existing and new libraries</h4>
+                </div>
+            </li>
+            <li class="col sm-padding">
+                <div class="counter-content">
+                    <i class="ti-money"></i>
+                    <h3 class="counter">10000</h3>
+                    <h4 class="text-white">Students Impacted</h4>
+                </div>
+            </li>
+            <li class="col sm-padding">
+                <div class="counter-content">
+                    <i class="ti-face-smile"></i>
+                    <h3 class="counter">22</h3>
+                    <h4 class="text-white">Liabries Helped</h4>
+                </div>
+            </li>
+            <li class="col sm-padding">
+                <div class="counter-content">
+                    <i class="ti-user"></i>
+                    <h3 class="counter">28</h3>
+                    <h4 class="text-white">Volunteers Involved</h4>
+                </div>
+            </li>
+            <li class="col sm-padding">
+                <div class="counter-content">
+                    <i class="ti-comments"></i>
+                    <h3 class="counter">5</h3>
+                    <h4 class="text-white">NGO's Supported</h4>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
 
                 {{-- <div id="slider-caption-1" class="nivo-html-caption slider-caption">
                     <div class="display-table">
@@ -154,8 +198,8 @@
 <br>
 
 
-        <section class="promo-section bd-bottom">
-            <div class="promo-wrap">
+        <section class="">
+            <div class="">
                <div class="container">
                 {{-- <h1 class="projo">Our Projects</h1> --}}
                     <div class="row">
