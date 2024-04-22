@@ -17,12 +17,13 @@
             </div>
             <div class="col-md-4 xs-padding">
                 <div class="widget-content">
-                    <h3>Recent Campaigns</h3>
+                    <h3>Quick Links</h3>
                     <ul class="widget-link">
-                        <li><a href="#">First charity activity of this summer. <span>-1 Year Ago</span></a></li>
-                        <li><a href="#">Big charity: build school for poor children. <span>-2 Year Ago</span></a></li>
-                        <li><a href="#">Clean-water system for rural poor. <span>-2 Year Ago</span></a></li>
-                        <li><a href="#">Nepal earthqueak donation campaigns. <span>-3 Year Ago</span></a></li>
+                        <li><a href=" {{ route('home') }}">HOME</a></li>
+                        <li><a href="{{ route('about') }}">ABOUT</a></li>
+                        <li><a href="{{ route('our-ngo') }}">OUR-NGO</span></a></li>
+                        <li><a href="{{ route('acknowledgements') }}">ACKNOWLEDGEMENTS</a></li>
+                        <li><a href="{{ route('contact') }}">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
@@ -44,7 +45,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 sm-padding">
-                <div class="copyright">&copy; 2021 Charitify Powered by DynamicLayers</div>
+                <div class="copyright">Copyright &copy; Books & Beyond 2024 Designed by <a style="color: white"   href="https://svtindia.in/">SVT India</a></div>
             </div>
             <div class="col-md-6 sm-padding">
                 <ul class="footer-social">

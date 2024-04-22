@@ -98,7 +98,7 @@
         </ul>
     </div>
 </section><!-- Counter Section --> --}}
-<section class="events-section bg-grey bd-bottom padding">
+{{-- <section class="events-section bg-grey bd-bottom padding">
     <div class="container">
         <div class="section-heading text-center mb-40">
             <h2>Upcoming Events</h2>
@@ -150,7 +150,7 @@
             </div><!-- Event-3 -->
         </div>
     </div>
-</section>
+</section> --}}
 <br>
 
 
@@ -168,7 +168,7 @@
                                 ensured that our volunteers, through their small contributions, have brought about a huge difference by stocking up
                                 almost non-existent libraries.
                                 Contact us to donate your pre-loved books.</p>
-                                <a href="#">Read More</a>
+                                {{-- <a href="#">Read More</a> --}}
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 xs-padding">
@@ -178,7 +178,7 @@
                                 <p>Our volunteers conduct several storytelling, quizzes and puzzles workshops for the students from the various NGOs we
                                 volunteer with. Our sessions are conducted across various age groups, on both online and offline platforms.
                                 Volunteer with us and get involved!</p>
-                                <a href="#">Read More</a>
+                                {{-- <a href="#">Read More</a> --}}
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 xs-padding">
@@ -189,7 +189,7 @@
                                 such as teaching interns. You could donate watches, hand bags, formal and semi formal clothes for girls who are working
                                 as interns in schools. You could also donate dance costumes and costume jewelry for girls who are learning classical
                                 dance.</p>
-                                <a href="#">Read More</a>
+                                {{-- <a href="#">Read More</a> --}}
                             </div>
                         </div>
                     </div>
@@ -197,7 +197,7 @@
             </div>
         </section><!-- /Promo Section -->
 <br>
-        <section class="causes-section bg-grey bd-bottom padding">
+        {{-- <section class="causes-section bg-grey bd-bottom padding">
             <div class="container">
                 <div class="section-heading text-center mb-40">
                     <h2>Recent Causes</h2>
@@ -267,9 +267,9 @@
                     </div><!-- /Causes-3 -->
                 </div>
             </div>
-        </section><!-- /Causes Section -->
+        </section><!-- /Causes Section --> --}}
 
-        <section class="about-section bd-bottom shape circle padding">
+        {{-- <section class="about-section bd-bottom shape circle padding">
             <div class="container">
                 <div class="row">
                    <div class="col-md-4 xs-padding">
@@ -298,9 +298,9 @@
                     </div>
                 </div>
             </div>
-        </section><!-- /Causes Section -->
+        </section><!-- /Causes Section --> --}}
 
-        <section class="campaigns-section bd-bottom">
+        {{-- <section class="campaigns-section bd-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 xs-padding">
@@ -328,7 +328,7 @@
                     </div>
                 </div>
             </div>
-        </section><!-- /Featured Campaigns Section -->
+        </section><!-- /Featured Campaigns Section --> --}}
 
         {{-- <section class="team-section bg-grey bd-bottom circle shape padding">
             <div class="container">
@@ -393,7 +393,7 @@
             </div>
         </section><!-- /Team Section --> --}}
 
-        {{-- <section id="counter" class="counter-section">
+         {{-- <section id="counter" class="counter-section">
 		    <div class="container">
                 <ul class="row counters">
                     <li class="col-md-3 col-sm-6 sm-padding">
@@ -427,7 +427,7 @@
                 </ul>
 		    </div>
 		</section><!-- Counter Section --> --}}
-
+{{--
         <section class="events-section bg-grey bd-bottom padding">
            <div class="container">
                 <div class="section-heading text-center mb-40">
@@ -480,8 +480,8 @@
                     </div><!-- Event-3 -->
                 </div>
            </div>
-        </section><!-- Events Section -->
-
+        </section><!-- Events Section --> --}}
+{{--
         <section class="testimonial-section bd-bottom padding">
             <div class="container">
                 <div class="section-heading text-center mb-40">
@@ -520,9 +520,9 @@
                     </div>
                 </div>
             </div>
-        </section><!-- Testimonial Section -->
+        </section><!-- Testimonial Section --> --}}
 
-        <section class="blog-section bg-grey bd-bottom padding">
+        {{-- <section class="blog-section bg-grey bd-bottom padding">
             <div class="container">
                 <div class="section-heading text-center mb-40">
                     <h2>Recent Stories</h2>
@@ -569,9 +569,9 @@
                     </div><!-- Blog Posts -->
                 </div>
             </div>
-        </section><!-- Blog Section -->
+        </section><!-- Blog Section --> --}}
 
-        <div class="sponsor-section bd-bottom">
+        {{-- <div class="sponsor-section bd-bottom">
             <div class="container">
                 <ul id="sponsor-carousel" class="sponsor-items owl-carousel">
                     <li class="sponsor-item">
@@ -600,6 +600,6 @@
                     </li>
                 </ul>
             </div>
-        </div><!-- ./Sponsor Section -->
+        </div><!-- ./Sponsor Section --> --}}
 
 @endsection

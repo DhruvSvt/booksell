@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{{ $title ?? 'HOME' }} | Prabha Hospital & Trauma Center | Best Multispeciality Hospital in Agra</title>
+    <title>{{ $title ?? 'HOME' }} | Books & Beyond NGO </title>
     <meta name="description" content="{{ config('app.name') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 

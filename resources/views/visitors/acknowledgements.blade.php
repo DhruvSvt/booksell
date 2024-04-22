@@ -6,48 +6,117 @@
         <div class="pager-header">
             <div class="container">
                 <div class="page-content">
-                    <h2>Upcoming Events</h2>
-                    <p>Help today because tomorrow you may be the one who <br>needs more helping!</p>
+                    {{-- <h2>Upcoming Events</h2>
+                    <p>Help today because tomorrow you may be the one who <br>needs more helping!</p> --}}
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
-                        <li class="breadcrumb-item active">Events</li>
+                        <li class="breadcrumb-item active">ACKNOWLEDGMENTS</li>
                     </ol>
                 </div>
             </div>
         </div><!-- /Page Header -->
 
        <section class="events-section bg-grey bd-bottom padding">
-           <div class="container">
+        <h1 class="align-center">Letter From</h1>
+        <br><div class="container text-center my-3">
+            {{-- <h2 class="font-weight-light">Letter From</h2> --}}
+            <div class="row mx-auto my-auto">
+                <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                    <div class="carousel-inner w-100" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-fluid" src="{{ config('app.url') }}\img\lotusngo.png">
+                                </div>
+                                <h2 style="background-color: #a7baff">Lotus Petal</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-fluid" src="img\Sarvhiteyngo.webp">
+                                </div>
+                                <h2 style="background-color: #a7baff">Sarv Hitey</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-fluid" src="{{ config('app.url') }}\img\andhara1.jpeg">
+                                </div>
+                                <h2 style="background-color: #a7baff">Andhara Society</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-fluid" src="{{ config('app.url') }}\img\harnand.png">
+                                </div>
+                                <h2 style="background-color: #a7baff">Har Nand Rai and Chhotu Ram Rathee <br>Friendship Memorial Trust</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-fluid" src="http://placehold.it/380?text=5">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-fluid" src="http://placehold.it/380?text=6">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle"
+                            aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle"
+                            aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            {{-- <h5 class="mt-2">Advances one slide at a time</h5> --}}
+        </div>
+           {{-- <div class="container">
                 <div id="event-carousel" class="events-wrap owl-Carousel">
                     <div class="events-item">
                         <div class="event-thumb">
-                           <img src="img/events-1.jpg" alt="events">
+                           <img src="img/lotusngo.png" alt="events">
                         </div>
                         <div class="event-details">
-                            <h3>Let's talk about the poor children.</h3>
+                            <h3 class="align-center">Lotus Petal</h3>
                             <div class="event-info">
-                                <p><i class="ti-calendar"></i>Started On: 12:00 PM.</p>
-                                <p><i class="ti-location-pin"></i>Grand Mahal, Dubai 2100.</p>
-                            </div>
-                            <p>Help today because tomorrow you may be the one who needs more helping!</p>
-                            <a href="#" class="default-btn">Read More</a>
-                        </div>
+                                {{-- <p><i class="ti-calendar"></i>Started On: 12:00 PM.</p>
+                                <p><i class="ti-location-pin"></i>Grand Mahal, Dubai 2100.</p> --}}
+                            {{-- </div>
+                            <p>Lotus Petal Foundation has over 11 years of grassroots-level expertise in handling challenges faced by underprivileged
+                            children and transforming their lives through education, nutrition and skill development.<p>
+                            {{-- <a href="#" class="default-btn">Read More</a> --}}
+                        {{-- </div>
                     </div><!-- Event-1 -->
                     <div class="events-item">
                         <div class="event-thumb">
-                           <img src="img/events-2.jpg" alt="events">
+                           <img src="img/Sarvhiteyngo.webp" alt="events">
                         </div>
                         <div class="event-details">
-                            <h3>Insure clean water to everyone in Africa.</h3>
-                            <div class="event-info">
-                                <p><i class="ti-calendar"></i>Started On: 12:00 PM.</p>
-                                <p><i class="ti-location-pin"></i>Grand Mahal, Dubai 2100.</p>
-                            </div>
-                            <p>Help today because tomorrow you may be the one who needs more helping!</p>
-                            <a href="#" class="default-btn">Read More</a>
-                        </div>
-                    </div><!-- Event-2 -->
-                    <div class="events-item">
+                            <h3 class="align-center">Sarv Hitey</h3>
+                            <div class="event-info"> --}}
+                                {{-- <p><i class="ti-calendar"></i>Started On: 12:00 PM.</p>
+                                <p><i class="ti-location-pin"></i>Grand Mahal, Dubai 2100.</p> --}}
+                            {{-- </div>
+                            <p>Sarvahitey is a cause-based non-profit organization comprising of enthusiastic and dedicated youth, determined to
+                            eradicate illiteracy and ignorance from the society through the educational</p> --}}
+                            {{-- <a href="#" class="default-btn">Read More</a> --}}
+                        {{-- </div>
+                    </div><!-- Event-2 --> --}}
+                    {{-- <div class="events-item">
                         <div class="event-thumb">
                            <img src="img/events-3.jpg" alt="events">
                         </div>
@@ -60,10 +129,10 @@
                             <p>Help today because tomorrow you may be the one who needs more helping!</p>
                             <a href="#" class="default-btn">Read More</a>
                         </div>
-                    </div><!-- Event-3 -->
+                    </div>
                 </div>
            </div>
-        </section><!-- Events Section -->
+        </section> --}}
 
         <section class="cta-section d-flex align-items-center">
             <div class="container">
@@ -75,7 +144,7 @@
                        </div>
                     </div>
                     <div class="col-md-3 d-flex align-items-center text-right">
-                        <a href="#" class="default-btn">Contact With Us</a>
+                        <a href="{{ route('contact') }}" class="default-btn">Contact With Us</a>
                     </div>
                </div>
             </div>

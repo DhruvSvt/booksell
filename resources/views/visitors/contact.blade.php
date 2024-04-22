@@ -6,8 +6,8 @@
         <div class="pager-header">
             <div class="container">
                 <div class="page-content">
-                    <h2>Contact With Us</h2>
-                    <p>Help today because tomorrow you may be the one who <br>needs more helping!</p>
+                    {{-- <h2>Contact With Us</h2>
+                    <p>Help today because tomorrow you may be the one who <br>needs more helping!</p> --}}
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
                         <li class="breadcrumb-item active">Contact</li>
@@ -80,12 +80,12 @@
                         </div>
                     </div>
 
-                    <h3 class="text-center">It takes a pencil to write a story, a book to open minds... and a small donation to make a
-                        difference!</h3>
-                </div>
+                    {{-- <h3 class="text-center">It takes a pencil to write a story, a book to open minds... and a <br>small donation to make a
+                        difference!</h3> --}}
 
+<div class="text-center"><h3>It takes a pencil to write a story, a book to open minds... and a<br> small donation to make a difference!</h3></div>
             </div>
-
+</div>
         </section><!-- /Contact Section -->
 
 
