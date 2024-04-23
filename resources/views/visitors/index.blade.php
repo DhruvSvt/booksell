@@ -6,12 +6,12 @@
         <section class="slider-section">
             <div class="slider-wrapper">
                 <div id="main-slider" class="nivoSlider">
-                    <img src="{{ config('app.url') }}\img\main2 (1).jpeg" alt="" title="#slider-caption-1"/>
-                    <img src="img/slider-2.jpg" alt="" title="#slider-caption-2"/>
-                    <img src="img/slider-3.jpg" alt="" title="#slider-caption-3"/>
+                    <img src="{{ config('app.url') }}\img\mainpic1.jpg" alt="" title="#slider-caption-1"/>
+                    <img src="{{ config('app.url') }}\img\mainpic2.jpg" alt="" title="#slider-caption-2"/>
+                    <img src="{{ config('app.url') }}\img\mainpic3.jpg" alt="" title="#slider-caption-2" />
                 </div><!-- /#main-slider -->
 
-
+<h2 class="align-center">Mahatma Gandhi said, “The future depends on what we do in the present.”</h2>
 
 <section id="counter" class="counter-section">
     <div class="container">
@@ -20,35 +20,35 @@
                 <div class="counter-content">
                     <i class="ti-money"></i>
                     <h3 class="counter">5000</h3>
-                    <h4 class="text-white">Books found homes in existing and new libraries</h4>
+                    <h4 class="text-black">Books found homes in existing and new libraries</h4>
                 </div>
             </li>
             <li class="col sm-padding">
                 <div class="counter-content">
                     <i class="ti-money"></i>
                     <h3 class="counter">10000</h3>
-                    <h4 class="text-white">Students Impacted</h4>
+                    <h4 class="text-black">Students Impacted</h4>
                 </div>
             </li>
             <li class="col sm-padding">
                 <div class="counter-content">
                     <i class="ti-face-smile"></i>
                     <h3 class="counter">22</h3>
-                    <h4 class="text-white">Liabries Helped</h4>
+                    <h4 class="text-black">Liabries Helped</h4>
                 </div>
             </li>
             <li class="col sm-padding">
                 <div class="counter-content">
                     <i class="ti-user"></i>
                     <h3 class="counter">28</h3>
-                    <h4 class="text-white">Volunteers Involved</h4>
+                    <h4 class="text-black">Volunteers Involved</h4>
                 </div>
             </li>
             <li class="col sm-padding">
                 <div class="counter-content">
                     <i class="ti-comments"></i>
                     <h3 class="counter">5</h3>
-                    <h4 class="text-white">NGO's Supported</h4>
+                    <h4 class="text-black">NGO's Supported</h4>
                 </div>
             </li>
         </ul>
@@ -240,7 +240,8 @@
                 </div>
             </div>
         </section><!-- /Promo Section -->
-<br>
+
+
         {{-- <section class="causes-section bg-grey bd-bottom padding">
             <div class="container">
                 <div class="section-heading text-center mb-40">
@@ -373,7 +374,116 @@
                 </div>
             </div>
         </section><!-- /Featured Campaigns Section --> --}}
+{{-- <div class="container h-100">
+    <div class="row mx-auto h-100">
+        <div id="gallery" class="carousel slide w-100 align-self-center" data-ride="carousel">
+            <div class="carousel-inner mx-auto w-90" role="listbox" data-toggle="modal" data-target="#lightbox">
+                <div class="carousel-item">
+                    <div class="col-lg-5 col-md-4">
+                        <img class="img-fluid" src="http://placehold.it/1400x920?text=1" data-target="#lightbox-gallery"
+                            data-slide-to="0">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-lg-5 col-md-4">
+                        <img class="img-fluid" src="http://placehold.it/1400x920?text=2" data-target="#lightbox-gallery"
+                            data-slide-to="1">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-lg-5 col-md-4">
+                        <img class="img-fluid" src="http://placehold.it/1400x920?text=3" data-target="#lightbox-gallery"
+                            data-slide-to="2">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-lg-5 col-md-4">
+                        <img class="img-fluid" src="http://placehold.it/1400x920?text=4" data-target="#lightbox-gallery"
+                            data-slide-to="3">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-lg-5 col-md-4">
+                        <img class="img-fluid" src="http://placehold.it/1400x920?text=5" data-target="#lightbox-gallery"
+                            data-slide-to="4">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-lg-5 col-md-4">
+                        <img class="img-fluid" src="http://placehold.it/1400x920?text=6" data-target="#lightbox-gallery"
+                            data-slide-to="5">
+                    </div>
+                </div>
+            </div>
+            <div class="w-100">
+                <a class="carousel-control-prev w-auto" href="#gallery" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next w-auto" href="#gallery" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div> --}}
 
+{{-- <div class="modal fade h-100" id="lightbox" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/101123/close.png" />
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="lightbox-gallery" class="carousel slide" data-ride="carousel" data-interval="false">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#lightbox-gallery" data-slide-to="0"></li>
+                        <li data-target="#lightbox-gallery" data-slide-to="1"></li>
+                        <li data-target="#lightbox-gallery" data-slide-to="2"></li>
+                        <li data-target="#lightbox-gallery" data-slide-to="3"></li>
+                        <li data-target="#lightbox-gallery" data-slide-to="4"></li>
+                        <li data-target="#lightbox-gallery" data-slide-to="5"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="http://placehold.it/1400x920?text=1">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="http://placehold.it/1400x920?text=2">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="http://placehold.it/1400x920?text=3">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="http://placehold.it/1400x920?text=4">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="http://placehold.it/1400x920?text=5">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="http://placehold.it/1400x920?text=6">
+                        </div>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#lightbox-gallery" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#lightbox-gallery" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div> --}}
         {{-- <section class="team-section bg-grey bd-bottom circle shape padding">
             <div class="container">
                 <div class="section-heading text-center mb-40">
@@ -645,5 +755,75 @@
                 </ul>
             </div>
         </div><!-- ./Sponsor Section --> --}}
+<section class="events-section bg-grey bd-bottom padding">
+        <h1 class="align-center">Image Gallery</h1>
+        <br>
+        <div class="container text-center my-3">
+            {{-- <h2 class="font-weight-light">Letter From</h2> --}}
+            <div class="row mx-auto my-auto">
+                <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                    <div class="carousel-inner w-100" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-fluid" src="{{ config('app.url') }}\img\maingallery2.jpeg">
+                                </div>
+                                {{-- <h2 style="background-color: #a7baff">Lotus Petal</h2> --}}
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-fluid" src="{{ config('app.url') }}\img\galleryimg7.JPG">
+                                </div>
+                                {{-- <h2 style="background-color: #a7baff">Sarv Hitey</h2> --}}
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-fluid" src="{{ config('app.url') }}\img\maingallery3.JPG">
+                                </div>
+                                {{-- <h2 style="background-color: #a7baff">Andhara Society</h2> --}}
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-fluid" src="{{ config('app.url') }}\img\abhit.jpg">
+                                </div>
+                                {{-- <h2 style="background-color: #a7baff">Har Nand Rai & Chhotu Ram Rathee</h2> --}}
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-fluid" src="{{ config('app.url') }}\img\galleryimg10.jpg"">
+                                </div>
+                            </div>
+                        </div>
+                        {{-- <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-fluid" src="http://placehold.it/380?text=6">
+                                </div>
+                            </div>
+                        </div> --}}
+                    </div>
+                    <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle"
+                            aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle"
+                            aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            {{-- <h5 class="mt-2">Advances one slide at a time</h5> --}}
+        </div>
+</section>
 
 @endsection

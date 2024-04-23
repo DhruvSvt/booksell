@@ -407,7 +407,7 @@
 
     /*Section Heading Style*/
     .section-heading .heading-border {
-        border-top: 5px solid #f8b864;
+        border-top: 5px solid #a7baff;
         width: 50px;
         display: inline-block;
         margin-top: 0;
@@ -495,7 +495,7 @@
 
     /*Top Header*/
     .top-header {
-        background-color: #a7baff;
+        background-color: #000000;
         padding: 10px 0;
     }
 
@@ -659,7 +659,7 @@
 
     .slicknav_btn {
         background-color: transparent;
-        margin: 13px 5px 14px;
+        margin: 38px 19px 14px;
     }
 
     .slicknav_nav .slicknav_row:hover,
@@ -1267,7 +1267,7 @@
         -webkit-background-size: cover;
         background-size: cover;
         padding: 70px 0;
-        background-color: #a7baff;
+        background-color: #ffffff;
 
     }
 
@@ -1281,7 +1281,7 @@
 
     .counters .counter-content i {
         font-size: 36px;
-        color: white;
+        color: rgb(0, 0, 0);
     }
 
     .counters .counter-content h3 {
@@ -1307,7 +1307,7 @@
     .event-section {}
 
     .events-item {
-        padding-left: 300px;
+        /* padding-left: 300px; */
         position: relative;
     }
 
@@ -1451,7 +1451,7 @@
    ========================================================================== */
     .widget-section {
         background-color: #a7baff;
-        background-image: url(../img/map.png);
+        /* background-image: url(../img/map.png); */
         background-position: right 150px center;
         background-repeat: no-repeat;
         width: 100%;
@@ -2513,5 +2513,6 @@
 
     .align-center {
         font-size: 30px;
-        padding: 10px;
+        padding: 25px;
     }
+
