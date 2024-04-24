@@ -1,6 +1,3 @@
- <div class="site-preloader-wrap">
-    <div class="spinner"></div>
-</div><!-- Preloader -->
 
 <header id="header" class="header-section">
      <div class="top-header">
