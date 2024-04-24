@@ -26,7 +26,7 @@
             <div class="bottom-content-wrap row">
                 <div class="col-sm-4">
                     <div class="site-branding">
-                        <a href="{{ route('home') }}"><img  class="head-logo" src="img\books&beyond logo.png" alt="Brand"></a>
+                        <a href="{{ route('home') }}"><img  class="head-logo" src="{{ config('app.url') }}/img/books&beyond logo.png" alt="Brand"></a>
                     </div>
                 </div>
                 <div class="col-sm-8 text-right">

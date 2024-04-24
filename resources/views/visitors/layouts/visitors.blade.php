@@ -9,37 +9,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <link rel="shortcut icon" type="image/x-icon"
-        href="{{ config('app.url') }}/assets/img/prabhaicon-removebg-preview.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{ config('app.url') }}/img/books&beyond logo.png" />
 
-    <meta name="keywords"
-        content="best Trauma Center in india, hospitals in india, best neurologist in india, best orthopaedic hospital in india, super speciality hospital near me">
 
-    <meta name="description"
-        content="{{ $description ??
-            'Prabha Hospitals is the leading multispecialty health care unit with advanced facilities
-        and qualified & trained nursing staff in all wards having 110 beds including ICU, CCU, PICU, NICU, Emergency, Trauma and BURN Unit.' }}" />
+    <meta name="theme-color" content="#a7baff">
+    <!--plugin-css-->
 
-    <meta name="theme-color" content="#423a7a">
-    <meta name="msapplication-TileColor" content="#423a7a">
-    <meta name="msapplication-navbutton-color" content="#423a7a">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#423a7a">
+    <meta property="og:site_name" content="Best Digital Marketing Company in India | SVT India">
 
-    <meta property="fb:app_id" content="215285942559908" />
-    <meta property="og:url" content="{{ config('app.url') }}/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title"
-        content="{{ $title ?? 'Prabha Hospital & Trauma Center | Best Multispeciality Hospital in Agra' }}" />
-    <meta property="og:description"
-        content="{{ $description ??
-            'Prabha Hospitals is the leading multispecialty health care unit with advanced facilities
-            and qualified & trained nursing staff in all wards having 110 beds including ICU, CCU, PICU, NICU, Emergency, Trauma and BURN Unit.' }}" />
-    <meta property="og:image" content="{{ config('app.url') }}/assets/img/prabhaicon-removebg-preview.png">
-    <!-- Bootstrap core CSS -->
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ config('app.url') }}/img/books&beyond logo.png">
 
-    <!-- Bootstrap CSS Link -->
-    {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> --}}
+    <link rel="canonical" href="{{ config('app.url') }}">
+
+
+    <meta name="description" content="Books & Beyond is an initiative to drive recycling and reuse of all kinds of resources related to
+Education. The
+initiative started off with collections of books for existing as well as new libraries being set
+up by Education">
+    <meta property="og:title" content="Books & Beyond">
+    <meta property="og:description" content="Books & Beyond is an initiative to drive recycling and reuse of all kinds of resources related to
+Education. The
+initiative started off with collections of books for existing as well as new libraries being set
+up by Education">
+
+
+
+    <meta name="theme-color" content="#a7baff">
+    <meta name="msapplication-TileColor" content="#a7baff">
+    <meta name="msapplication-navbutton-color" content="#a7baff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#a7baff">
+
+
 
     @include('visitors.inc.headerlinks')
     @yield('head')
