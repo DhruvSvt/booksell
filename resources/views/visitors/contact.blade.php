@@ -82,7 +82,7 @@
             </div>
 
                 <div class="text-center w-100 mt-3">
-                    <h3>It takes a pencil to write a story, a book to open minds... and a<br> small donation to make a
+                    <h3 class="p-1">It takes a pencil to write a story, a book to open minds... and a<br> small donation to make a
                         difference!</h3>
                 </div>
             </div>

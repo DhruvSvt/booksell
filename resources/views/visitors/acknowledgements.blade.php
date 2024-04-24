@@ -88,45 +88,45 @@
         {{-- <h5 class="mt-2">Advances one slide at a time</h5> --}}
     </div>
 </section>
-<section class="events-section bg-grey bd-bottom padding">
+{{-- <section class="events-section bg-grey bd-bottom padding">
     <h1 class="align-center">Acknowledgement letters from NGOs</h1>
     <br>
     <div class="container text-center my-3">
         {{-- <h2 class="font-weight-light">Letter From</h2> --}}
-        <div class="row mx-auto my-auto">
+        {{-- <div class="row mx-auto my-auto">
             <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
                 <div class="carousel-inner w-100" role="listbox">
                     <div class="carousel-item active">
                         <div class="col-md-4">
                             <div class="card card-body">
                                 <img class="img-fluid" src="{{ config('app.url') }}\img\harngo.png">
-                            </div>
+                            </div> --}}
                             {{-- <h2 style="background-color: #a7baff">Lotus Petal</h2> --}}
-                        </div>
+                        {{-- </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-md-4">
                             <div class="card card-body">
                                 <img class="img-fluid" src="{{ config('app.url') }}\img\lotus.1.png">
-                            </div>
+                            </div> --}}
                             {{-- <h2 style="background-color: #a7baff">Sarv Hitey</h2> --}}
-                        </div>
+                        {{-- </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-md-4">
                             <div class="card card-body">
                                 <img class="img-fluid" src="{{ config('app.url') }}\img\ngosarv.png">
-                            </div>
+                            </div> --}}
                             {{-- <h2 style="background-color: #a7baff">Andhara Society</h2> --}}
-                        </div>
+                        {{-- </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-md-4">
                             <div class="card card-body">
                                 <img class="img-fluid" src="{{ config('app.url') }}\img\andhrango.png">
-                            </div>
+                            </div> --}}
                             {{-- <h2 style="background-color: #a7baff">Andhara Society</h2> --}}
-                        </div>
+                        {{-- </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-md-4">
@@ -134,8 +134,8 @@
                                 <img class="img-fluid" src="{{ config('app.url') }}\img\lotusbook.png">
                             </div>
                             {{-- <h2 style="background-color: #a7baff">Andhara Society</h2> --}}
-                        </div>
-                    </div>
+                        {{-- </div>
+                    </div> --}}
                     {{-- <div class="carousel-item">
                         <div class="col-md-4">
                             <div class="card card-body">
@@ -158,7 +158,7 @@
                             </div>
                         </div>
                     </div> --}}
-                </div>
+                {{-- </div>
                 <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle"
                         aria-hidden="true"></span>
@@ -172,8 +172,8 @@
             </div>
         </div>
         {{-- <h5 class="mt-2">Advances one slide at a time</h5> --}}
-    </div>
-</section>
+    {{-- </div>
+</section> --}}
 
 
 
@@ -192,29 +192,29 @@
             </div>
             <div class="testimonial-item">
                 <div class="card card-body">
-                    <img class="img-fluid" src="{{ config('app.url') }}\img\lotus.1.png">
+                    <img class="img-fluid" src="{{ config('app.url') }}\img\harngo.png">
                 </div>
             </div>
             <div class="testimonial-item">
                 <div class="card card-body">
-                    <img class="img-fluid" src="{{ config('app.url') }}\img\lotus.1.png">
+                    <img class="img-fluid" src="{{ config('app.url') }}\img\ngosarv.png">
                 </div>
             </div>
             <div class="testimonial-item">
                 <div class="card card-body">
-                    <img class="img-fluid" src="{{ config('app.url') }}\img\lotus.1.png">
+                    <img class="img-fluid" src="{{ config('app.url') }}\img\andhrango.png">
                 </div>
             </div>
-            <div class="testimonial-item">
+            {{-- <div class="testimonial-item">
+                <div class="card card-body">
+                    <img class="img-fluid" src="{{ config('app.url') }}\img\ngoletter7.png">
+                </div>
+            </div> --}}
+            {{-- <div class="testimonial-item">
                 <div class="card card-body">
                     <img class="img-fluid" src="{{ config('app.url') }}\img\lotus.1.png">
                 </div>
-            </div>
-            <div class="testimonial-item">
-                <div class="card card-body">
-                    <img class="img-fluid" src="{{ config('app.url') }}\img\lotus.1.png">
-                </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </section>

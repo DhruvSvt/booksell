@@ -1450,7 +1450,7 @@
    13.0 Widget Section
    ========================================================================== */
     .widget-section {
-        background-color: #a7baff;
+        background-color: #000000;
         /* background-image: url(../img/map.png); */
         background-position: right 150px center;
         background-repeat: no-repeat;
@@ -1470,7 +1470,7 @@
     }
 
     .widget-content h3 {
-        color: black;
+        color: rgb(255, 255, 255);
     }
 
     .widget-content .social-icon li {
@@ -2508,11 +2508,11 @@
     .img-crousel {
         width: 100%;
         height: 220px;
-        object-fit: fill;
+        object-fit: cover;
     }
 
     .align-center {
-        font-size: 30px;
-        padding: 25px;
+        font-size: 35px;
+        padding: 30px;
     }
 

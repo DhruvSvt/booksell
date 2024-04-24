@@ -35,7 +35,7 @@
             <div class="p-5 xs-padding">
                 <div class="about-content">
                     {{-- <h2>You are definitely intrigued to <br> discover who we are.</h2> --}}
-                    <p>Books&Beyond is an initiative to drive recycling and reuse of all kinds of resources related to
+                    <p>Books & Beyond is an initiative to drive recycling and reuse of all kinds of resources related to
                         Education. The
                         initiative started off with collections of books for existing as well as new libraries being set
                         up by Education
@@ -71,7 +71,6 @@
         </div>
     </div>
     <section class="events-section bg-grey bd-bottom padding">
-
         <div class="container text-center my-3">
             <h2 class="font-weight-light">Images of Books of Different Genres</h2>
             <br>
@@ -83,7 +82,6 @@
                                 <div class="card card-body">
                                     <img class="img-crousel" src="{{ config('app.url') }}\img\books1.jpeg">
                                 </div>
-                                {{-- <h2 style="background-color: bisque">Lotus Petal</h2> --}}
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -121,39 +119,90 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="col-md-4">
-                            <div class="card card-body">
-                                <img class="img-crousel" src="{{ config('app.url') }}\img\books9.jpeg">
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-crousel" src="{{ config('app.url') }}\img\books9.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-crousel" src="{{ config('app.url') }}\img\books8.jpeg">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card card-body">
-                            <img class="img-crousel" src="{{ config('app.url') }}\img\books8.jpeg">
-                        </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle about-crousal-arrow " aria-hidden="true"
+                style="margin-top: 49rem;"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle about-crousal-arrow" aria-hidden="true"
+                style="margin-top: 49rem;"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        </div>
+    </section>
+
+    <!-- /About Section -->
+
+    {{-- <section class="testimonial-section bd-bottom padding">
+        <div class="container">
+            <div class="section-heading text-center mb-40">
+                <h2>Books of Different Genres</h2>
+                <span class="heading-border"></span>
+
+            </div><!-- /Section Heading -->
+            <div id="testimonial-carousel" class="testimonial-carousel owl-carousel">
+                <div class="testimonial-item">
+                    <div class="card card-body">
+                        <img class="img-fluid" src="{{ config('app.url') }}\img\books1.jpeg">
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="card card-body">
+                        <img class="img-fluid" src="{{ config('app.url') }}\img\books2.jpeg">
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="card card-body">
+                        <img class="img-fluid" src="{{ config('app.url') }}\img\books3.jpeg">
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="card card-body">
+                        <img class="img-fluid" src="{{ config('app.url') }}\img\books4.jpeg">
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="card card-body">
+                        <img class="img-fluid" src="{{ config('app.url') }}\img\books5.jpeg">
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="card card-body">
+                        <img class="img-fluid" src="{{ config('app.url') }}\img\books7.jpeg">
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="card card-body">
+                        <img class="img-fluid" src="{{ config('app.url') }}\img\books9.jpg">
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="card card-body">
+                        <img class="img-fluid" src="{{ config('app.url') }}\img\books8.jpeg">
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle"
-                    aria-hidden="true" style="margin-top: 49rem;"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next"
-                >
-                <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle"
-                    aria-hidden="true" style="margin-top: 49rem;"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
-        </div>
-        {{-- <h5 class="mt-2">Advances one slide at a time</h5> --}}
-        </div>
-    </section><!-- /About Section -->
+    </section> --}}
     {{--
     <section class="team-section bg-grey bd-bottom circle shape padding">
         <div class="container">

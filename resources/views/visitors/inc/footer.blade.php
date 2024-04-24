@@ -29,9 +29,9 @@
             </div>
             <div class="col-md-4 xs-padding">
                 <div class="widget-content">
-                    <h3>Charitify Location</h3>
+                    <h3>Books & Beyond</h3>
                     <ul class="address">
-                        <li><i class="ti-email"></i> Info@YourDomain.com</li>
+                        <li><a style="color: white" href="mailto:adhit.mandal29@gmail.com"><i class="ti-email"></i>adhit.mandal29@gmail.com</a></li>
                         <li><i class="ti-mobile"></i> +(333) 052 39876</li>
                         <li><i class="ti-world"></i> Www.YourWebsite.com</li>
                         <li><i class="ti-location-pin"></i> 60 Grand Avenue. Central New Road 0708, USA</li>
@@ -47,13 +47,13 @@
             <div class="col-md-6 sm-padding">
                 <div class="copyright">Copyright &copy; Books & Beyond 2024 Designed by <a style="color: white"   href="https://svtindia.in/">SVT India</a></div>
             </div>
-            <div class="col-md-6 sm-padding">
+            {{-- <div class="col-md-6 sm-padding">
                 <ul class="footer-social">
                     <li><a href="#">Orders</a></li>
                     <li><a href="#">Terms</a></li>
                     <li><a href="#">Report Problem</a></li>
                 </ul>
-            </div>
+            </div> --}}
         </div>
     </div>
 </footer><!-- /Footer Section -->

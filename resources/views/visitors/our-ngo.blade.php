@@ -156,7 +156,7 @@
     </div>
 </section><!-- /Causes Section --> --}}
 <section class="about-section bg-grey bd-bottom">
-    <h2 class="align-center">NGO's we work with us :
+    <h2 class="align-center">NGOs we work with
         <hr>
     </h2>
 
@@ -167,7 +167,7 @@
                     <img src="img/img3.jpg" alt="about image">
                 </div>
             </div> --}}
-            <div class="p-5 xs-padding">
+            <div class="p-2 p-sm-5">
                 <div class="about-content">
                     {{-- <h2>You are definitely intrigued to <br> discover who we are.</h2> --}}
                     <p><b>
@@ -238,90 +238,43 @@
             </div>
         </div>
     </div>
-    <section class="events-section bg-grey bd-bottom">
-        <h1 class="align-center">
-            <section class="events-section bg-grey bd-bottom">
-                <h1 class="align-center">Images of Adhit working with libraries/ Manipur libraries</h1>
-                <br>
-                <div class="container text-center my-3">
-                    {{-- <h2 class="font-weight-light">Letter From</h2> --}}
-                    <div class="row mx-auto my-auto">
-                        <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
-                            <div class="carousel-inner w-100" role="listbox">
-                                <div class="carousel-item active">
-                                    <div class="col-md-4">
-                                        <div class="card card-body">
-                                            <img class="img-fluid" src="{{ config('app.url') }}\img\andhra6.jpeg">
-                                        </div>
-                                        {{-- <h2 style="background-color: #a7baff">Lotus Petal</h2> --}}
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col-md-4">
-                                        <div class="card card-body">
-                                            <img class="img-fluid" src="{{ config('app.url') }}\img\andhra1.jpeg">
-                                        </div>
-                                        {{-- <h2 style="background-color: #a7baff">Sarv Hitey</h2> --}}
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col-md-4">
-                                        <div class="card card-body">
-                                            <img class="img-fluid" src="{{ config('app.url') }}\img\abhit.jpg">
-                                        </div>
-                                        {{-- <h2 style="background-color: #a7baff">Andhara Society</h2> --}}
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col-md-4">
-                                        <div class="card card-body">
-                                            <img class="img-fluid" src="{{ config('app.url') }}\img\arbit20.jpeg">
-                                        </div>
-                                        {{-- <h2 style="background-color: #a7baff">Har Nand Rai and Chhotu Ram Rathee
-                                            <br>Friendship Memorial Trust
-                                        </h2> --}}
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col-md-4">
-                                        <div class="card card-body">
-                                            <img class="img-fluid" src="{{ config('app.url') }}\img\arbit11.jpg">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col-md-4">
-                                        <div class="card card-body">
-                                            <img class="img-fluid" src="{{ config('app.url') }}\img\IMG_3871.jpg">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col-md-4">
-                                        <div class="card card-body">
-                                            <img class="img-fluid" src="{{ config('app.url') }}\img\IMG_3864.jpg">
-                                        </div>
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button"
-                                    data-slide="prev">
-                                    <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle"
-                                        aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button"
-                                    data-slide="next">
-                                    <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle"
-                                        aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                        </div>
-                        {{-- <h5 class="mt-2">Advances one slide at a time</h5> --}}
+
+    <section class="testimonial-section bd-bottom padding">
+        <div class="container">
+            <div class="section-heading text-center mb-40">
+                <h2>Adhit working with libraries/ Manipur libraries</h2>
+                <span class="heading-border"></span>
+
+            </div><!-- /Section Heading -->
+            <div id="testimonial-carousel" class="testimonial-carousel owl-carousel">
+                <div class="testimonial-item">
+                    <div class="card card-body">
+                        <img class="img-fluid" src="{{ config('app.url') }}\img\andhra6.jpeg">
                     </div>
                 </div>
-            </section>
-        </h1>
+                <div class="testimonial-item">
+                    <div class="card card-body">
+                        <img class="img-fluid" src="{{ config('app.url') }}\img\andhra1.jpeg">
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="card card-body">
+                        <img class="img-fluid" src="{{ config('app.url') }}\img\arbit11.jpg">
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="card card-body">
+                        <img class="img-fluid" src="{{ config('app.url') }}\img\IMG_3871.jpg">
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="card card-body">
+                        <img class="img-fluid" src="{{ config('app.url') }}\img\arbit20.jpeg">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
 
     @endsection
