@@ -22,7 +22,7 @@ Route::get('/', function () {
 
 Route::view('/home-modern', 'visitors.index-2')->name('home-modern');
 Route::view('/about', 'visitors.about')->name('about');
-Route::view('/our-ngo', 'visitors.our-ngo')->name('our-ngo');
+Route::view('/ngos', 'visitors.ngos')->name('ngos');
 Route::view('/acknowledgements', 'visitors.acknowledgements')->name('acknowledgements');
 Route::view('/gallery', 'visitors.gallery')->name('gallery');
 Route::view('/volunteer', 'visitors.team')->name('volunteer');

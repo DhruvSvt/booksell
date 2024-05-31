@@ -10,7 +10,7 @@
             <p>Help today because tomorrow you may be the one who <br>needs more helping!</p> --}}
             <nav aria-label="breadcrumbs">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
+                    {{-- <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li> --}}
                     <li class="breadcrumb-item active">About Us</li>
                 </ol>
             </nav>
@@ -91,13 +91,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        {{-- <div class="carousel-item">
                             <div class="col-md-4">
                                 <div class="card card-body">
                                     <img class="img-crousel" src="{{ config('app.url') }}\img\books3.jpeg">
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <div class="carousel-item">
                             <div class="col-md-4">
                                 <div class="card card-body">

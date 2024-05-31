@@ -33,7 +33,7 @@
                     <ul id="mainmenu" class="nav navbar-nav nav-menu">
                         <li><a href="{{ route('home') }}">HOME</a></li>
                         <li><a href="{{ route('about') }}">ABOUT</a></li>
-                        <li><a href="{{ route('our-ngo') }}">OUR-NGO</a></li>
+                        <li><a href="{{ route('ngos') }}">NGOs</a></li>
                         <li><a href="{{ route('acknowledgements') }}">ACKNOWLEDGEMENTS</a></li>
                         {{-- <li><a href="#">Pages</a>
                             <ul>

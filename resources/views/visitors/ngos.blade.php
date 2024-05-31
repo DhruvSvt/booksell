@@ -10,8 +10,8 @@
             {{-- <h2>Recent Causes</h2>
             <p>Help today because tomorrow you may be the one who <br>needs more helping!</p> --}}
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
-                <li class="breadcrumb-item active">Our-NGO</li>
+                {{-- <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li> --}}
+                <li class="breadcrumb-item active">NGOs</li>
             </ol>
         </div>
     </div>
@@ -239,10 +239,10 @@
         </div>
     </div>
 
-    <section class="testimonial-section bd-bottom padding">
+    {{-- <section class="testimonial-section bd-bottom padding">
         <div class="container">
             <div class="section-heading text-center mb-40">
-                <h2>Adhit working with libraries/ Manipur libraries</h2>
+                <h2>Our Work</h2>
                 <span class="heading-border"></span>
 
             </div><!-- /Section Heading -->
@@ -274,7 +274,74 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
+<section class="events-section bg-grey bd-bottom padding">
+    <div class="section-heading text-center mb-40">
+        <h2>Our Work</h2>
+        <span class="heading-border"></span>
+        </h1>
+        <br>
+        <div class="container text-center my-3">
+            {{-- <h2 class="font-weight-light">Letter From</h2> --}}
+            <div class="row mx-auto my-auto">
+                <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                    <div class="carousel-inner w-100" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-fluid" src="{{ config('app.url') }}\img\andhra6.jpeg">
+                                </div>
+                                {{-- <h2 style="background-color: #a7baff">Lotus Petal</h2> --}}
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                   <img class="img-fluid" src="{{ config('app.url') }}\img\andhra1.jpeg">
+                                </div>
+                                {{-- <h2 style="background-color: #a7baff">Sarv Hitey</h2> --}}
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-fluid" src="{{ config('app.url') }}\img\arbit11.jpg">
+                                </div>
+                                {{-- <h2 style="background-color: #a7baff">Andhara Society</h2> --}}
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                   <img class="img-fluid" src="{{ config('app.url') }}\img\IMG_3871.jpg">
+                                </div>
+                                {{-- <h2 style="background-color: #a7baff">Andhara Society</h2> --}}
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <img class="img-fluid" src="{{ config('app.url') }}\img\arbit20.jpeg">
+                                </div>
+                                {{-- <h2 style="background-color: #a7baff">Andhara Society</h2> --}}
+                            </div>
+                        </div>
 
+                    </div>
+                    <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle"
+                            aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle"
+                            aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            {{-- <h5 class="mt-2">Advances one slide at a time</h5> --}}
+        </div>
+</section>
 
     @endsection

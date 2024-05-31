@@ -875,7 +875,7 @@
             </div>
 </section> --}}
 
-<section class="testimonial-section bd-bottom padding">
+{{-- <section class="testimonial-section bd-bottom padding">
     <div class="container">
         <div class="section-heading text-center mb-40">
             <h2>Our Gallery</h2>
@@ -908,17 +908,81 @@
                     <img class="img-fluid" src="{{ config('app.url') }}\img\maingallery3.JPG">
                 </div>
             </div>
-            {{-- <div class="testimonial-item">
-                <div class="card card-body">
-                    <img class="img-fluid" src="{{ config('app.url') }}\img\lotus.1.png">
-                </div>
-            </div> --}}
+
         </div>
+    </div>
+</section> --}}
+<section class="events-section bg-grey bd-bottom padding">
+   <div class="section-heading text-center mb-40">
+        <h2>Our Gallery</h2>
+        <span class="heading-border"></span>
+    </h1>
+    <br>
+    <div class="container text-center my-3">
+        {{-- <h2 class="font-weight-light">Letter From</h2> --}}
+        <div class="row mx-auto my-auto">
+            <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                <div class="carousel-inner w-100" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="col-md-4">
+                            <div class="card card-body">
+                               <img class="img-fluid" src="{{ config('app.url') }}\img\maingallery2.jpeg">
+                            </div>
+                            {{-- <h2 style="background-color: #a7baff">Lotus Petal</h2> --}}
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-4">
+                            <div class="card card-body">
+                                <img class="img-fluid" src="{{ config('app.url') }}\img\galleryimg7.JPG">
+                            </div>
+                            {{-- <h2 style="background-color: #a7baff">Sarv Hitey</h2> --}}
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-4">
+                            <div class="card card-body">
+                               <img class="img-fluid" src="{{ config('app.url') }}\img\abhit.jpg">
+                            </div>
+                            {{-- <h2 style="background-color: #a7baff">Andhara Society</h2> --}}
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-4">
+                            <div class="card card-body">
+                                <img class="img-fluid" src="{{ config('app.url') }}\img\galleryimg10.jpg">
+                            </div>
+                            {{-- <h2 style="background-color: #a7baff">Andhara Society</h2> --}}
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-4">
+                            <div class="card card-body">
+                               <img class="img-fluid" src="{{ config('app.url') }}\img\maingallery3.JPG">
+                            </div>
+                            {{-- <h2 style="background-color: #a7baff">Andhara Society</h2> --}}
+                        </div>
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle"
+                        aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle"
+                        aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        {{-- <h5 class="mt-2">Advances one slide at a time</h5> --}}
     </div>
 </section>
 
-<section class="contact-section padding" style="background-color: #edf1ff;">
-    
+{{-- <section class="contact-section padding" style="background-color: #edf1ff;">
+
     <div class="container">
         <div class="row">
             <div class="col-md-6 xs-padding">
@@ -933,11 +997,7 @@
                     <p>Become a volunteer to help us collect resources, have them delivered to the right recipients,
                         help in cataloguing books
                         at libraries.</p>
-                    {{-- <ul>
-                        <li><i class="ti-location-pin"></i> 315 West 33rd Street New York, NY 10001</li>
-                        <li><i class="ti-mobile"></i> +1 212 425 8617, +1 212 425 8533</li>
-                        <li><i class="ti-email"></i> Youremail@companyname.com</li>
-                    </ul> --}}
+
                 </div>
             </div>
             <div class="col-md-6 xs-padding">
@@ -946,7 +1006,7 @@
                     <div class="alert alert-success">{{ session('success') }}</div>
                     @endif
                     <h3>Let's Connect With Us !</h3>
-                    {{-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> --}}
+
                     <form action="contact" method="post" class="form-horizontal">@csrf
                         <div class="form-group colum-row row">
                             <div class="col-sm-6">
@@ -989,5 +1049,5 @@
             </div>
         </div>
     </div>
-</section><!-- /Contact Section -->
+</section> --}}
 @endsection
