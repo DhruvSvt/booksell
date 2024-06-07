@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\contact;
 use App\Models\Enquery;
 use App\Http\Controllers\EnqueryController;
+use App\Http\Controllers\EventController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,8 +34,11 @@ Route::view('/blog-grid', 'visitors.blog-grid')->name('blog-grid');
 Route::view('/blog-left-sidebar', 'visitors.blog-left-sidebar')->name('blog-left-sidebar');
 Route::view('/blog-right-sidebar', 'visitors.blog-right-sidebar')->name('blog-right-sidebar');
 Route::view('/blog-single', 'visitors.blog-single')->name('blog-single');
-Route::get('contact',[EnqueryController::class, 'index']);
+Route::get('contact', [EnqueryController::class, 'index']);
 Route::post('contact', [EnqueryController::class, 'store'])->name('contact');
+// Route::view('/events', 'visitors.events')->name('events');
+Route::get('events', [EventController::class, 'index'])->name('events');
+Route::get('event/{slug}', [EventController::class, 'event'])->name('blogSingle');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

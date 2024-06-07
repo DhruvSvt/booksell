@@ -34,6 +34,7 @@
                         <li><a href="{{ route('home') }}">HOME</a></li>
                         <li><a href="{{ route('about') }}">ABOUT</a></li>
                         <li><a href="{{ route('ngos') }}">NGOs</a></li>
+                        <li><a href="{{ route('events') }}">EVENTS</a></li>
                         <li><a href="{{ route('acknowledgements') }}">ACKNOWLEDGEMENTS</a></li>
                         {{-- <li><a href="#">Pages</a>
                             <ul>
