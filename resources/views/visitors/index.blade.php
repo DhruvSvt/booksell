@@ -34,7 +34,7 @@
                         <div class="counter-content">
                             <i class="ti-face-smile"></i>
                             <h3 class="counter">22</h3>
-                            <h4 class="text-black">Liabries Helped</h4>
+                            <h4 class="text-black">Libraries Helped</h4>
                         </div>
                     </li>
                     <li class="col sm-padding">
@@ -48,7 +48,7 @@
                         <div class="counter-content">
                             <i class="ti-comments"></i>
                             <h3 class="counter">5</h3>
-                            <h4 class="text-black">NGO's Supported</h4>
+                            <h4 class="text-black">NGOs Supported</h4>
                         </div>
                     </li>
                 </ul>
